@@ -1,0 +1,30 @@
+{
+    "name": "mockingbird",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "build": "infodb-cli build --run-all build:* --source-maps",
+        "release": "infodb-cli build --run-all build:*",
+        "build:template": "infodb-cli template -t templates/test.hbs -i data/test.yaml -o dist/abc.txt",
+        "serve": "infodb-cli serve"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@date-io/core": "^1.3.6",
+        "@date-io/date-fns": "^1.3.13",
+        "@infodb/infodb-cli": "^0.0.6",
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/pickers": "^3.3.10",
+        "@material-ui/system": "^4.11.3",
+        "date-fns": "^2.19.0",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-calendar": "^3.3.1",
+        "react-dom": "^17.0.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0"
+    }
+}
